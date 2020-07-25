@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Application</title>
+	<link href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="application.css">
+</head>
+<body>
+
+<h3>Are we a good fit?</h3>
+
+<table>
+	<thead>
+		<tr>
+			<th>Questions</th>
+			<th></th>
+			<th></th>
+			<th></th>
+		</tr>
+	</thead>
+	<tbody>
+	<form>
+		<tr>
+			<td class="space">1. Do you like pasta?</td>
+			<td>
+				<div class="radio">
+				<label for="Yes"><input name="Options" id="yes" type="radio">Yes</label>
+				</div>
+			</td>		
+			<td>
+				<div class="radio">
+					<label for="No"><input name="Options" id="no" type="radio">No</label>
+				</div>
+			</td>
+			<td>
+				<div class="radio">
+					<label for="Unsure"><input name="Options" id="Unsure" type="radio">Unsure</label>
+				</div>
+			</td>
+
+		</tr>
+		<tr>
+			<td class="space">2. Pasta with or without sauce?</td>
+			<td>
+				<div class="radio">
+				<label for="With"><input name="Sauce" id="yes" type="radio">With</label>
+				</div>
+			</td>		
+			<td>
+				<div class="radio">
+					<label for="Without"><input name="Sauce" id="no" type="radio">Without</label>
+				</div>
+				</td>
+			<td>
+				<div class="radio">
+					<label for="Either"><input name="Options" id="Either" type="radio">Either</label>
+				</div>
+			</td>	
+		</tr>
+		<tr>
+			<td class="space">3. Ravioli is known as the pregnant stamp:</td>
+			<td>
+				<div class="radio">
+				<label for="True"><input name="Facts" id="True" type="radio">True</label>
+				</div>
+			</td>		
+			<td>
+				<div class="radio">
+					<label for="False"><input name="Facts" id="False" type="radio">False</label>
+				</div>
+				</td>
+			<td>
+				<div class="radio">
+					<label for="Unsure"><input name="Facts" id="Unsure" type="radio">Unsure</label>
+				</div>
+			</td>	
+		</tr>
+		<tr>
+			<td class="space">4. Are you a pasta-farian?</td>
+			<td>
+				<div class="radio">
+				<label for="Yes"><input name="Rasta" id="yes" type="radio">Yes</label>
+				</div>
+			</td>		
+			<td>
+				<div class="radio">
+					<label for="No"><input name="Rasta" id="no" type="radio">No</label>
+				</div>
+				</td>
+			<td>
+				<div class="radio">
+					<label for="Unsure"><input name="Rasta" id="Unsure" type="radio">Unsure</label>
+				</div>
+			</td>		
+		</tr>
+		<tr>
+			<td class="space">5. Rate this joke: Did you hear about the italian chef who died? He pasta away</td>
+			<td>
+				<div class="radio">
+				<label for="Very Funny"><input name="Jokes" id="Very Funny" type="radio">Very Funny</label>
+				</div>
+			</td>		
+			<td>
+				<div class="radio">
+					<label for="Not Funny"><input name="Jokes" id="not Funny" type="radio">Not Funny</label>
+				</div>
+				</td>
+			<td>
+				<div class="radio">
+					<label for="Just Bad"><input name="Jokes" id="Just Bad" type="radio">Just Bad</label>
+				</div>
+			</td>	
+		</tr>
+		<tr>
+			<td class="space">6. How did you find this application?</td>
+			<td>
+				<div class="radio">
+				<label for="good"><input name="Rateme" id="good" type="radio">Good</label>
+				</div>
+			</td>		
+			<td>
+				<div class="radio">
+					<label for="Bad"><input name="Rateme" id="Bad" type="radio">Bad</label>
+				</div>
+				</td>
+			<td>
+				<div class="radio">
+					<label for="WTF"><input name="Rateme" id="WTF" type="radio">WTF</label>
+				</div>
+			</td>		
+		</tr>
+	</form>		
+	</tbody>
+</table>
+
+<hr>
+
+
+<h3>Additional Info</h3>
+<label>How Did you hear of this job?
+	:<select name="Job" class="space">
+		<option>-Please Select-</option>
+		<option value="Word of mouth">Word of mouth</option>
+		<option value="Job Advert">Job Advert</option>
+		<option value="Direct">Direct</option>
+		<option value="Other">Other</option>
+</label>
+</select>
+<div>
+<label>How would you get to work?
+	:<select name="Transport" class="space">
+		<option>-Please Select-</option>
+		<option value="Car">Car</option>
+		<option value="Walk">Walk</option>
+		<option value="Bike">Bike</option>
+		<option value="Public Transport">Public Transport</option>
+</label>
+</select>
+</div>
+<div>
+	<!-- Unable to do the characters remaining as this is not until jQuery/JS -->
+	<label for="Why">Why do you think we should take your application to the next step?</label>
+	<div>
+	<textarea name="Why" id="Why" maxlength="50" rows="5" cols="25" placeholder="Max Characters 50"></textarea></div>
+</div>
+<div></div>
+<label>By submitting my application I agree that <strong>all</strong> of the above is a load of crap but is used for practice
+	<input type="checkbox" required class="space">
+</label>
+<div></div>
+<button>
+	<a href="applicationpage3.html">Submit Application</a>
+</button>
+	
+
+</body>
+</html>

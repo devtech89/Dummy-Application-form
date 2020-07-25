@@ -1,0 +1,41 @@
+body {
+	font-family: 'Red Rose', cursive;
+	border-top: 10px solid #000000;
+	border-bottom: 10px solid #000000;
+	border-left: 10px solid #cc0000;
+	border-right: 10px solid #cc0000;
+	padding: 20px;
+	max-width: 800px;
+	width: 80%;
+	margin: 20px auto;
+}
+h1 {
+	color: #800000;
+}
+.JobSpec {
+	border: 2px solid black;
+	padding: 6px;
+}
+.successful {
+	border: 2px solid green;
+	padding: 5px;
+	text-align: center;
+}
+#yay {
+	color: #009900;
+	font-size: 50px;
+}
+.space {
+	margin-bottom: 10px;
+}
+h2 {
+	color: #000066;
+}
+h3 {
+	color: #000066;
+}
+hr {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 8px 8px -11px #800000;
+}
